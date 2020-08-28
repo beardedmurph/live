@@ -15,7 +15,7 @@ terraform {
 }
 
 module "webserver_cluster" {
-  source = "github.com/beardedmurph/modules//services/webserver-cluster?ref=v0.0.1"
+  source = "github.com/beardedmurph/modules//services/webserver-cluster?ref=v0.0.4"
 
   cluster_name = "webservers-stage"
   instance_type = "t2.micro"
